@@ -1,10 +1,18 @@
-# Facial_Recognition
-Steps to follow: In the command prompt, execute "pip install -r requirements.txt" to install the necessary packages for the project.
-Within the project folder, establish a "TrainingImage" folder. Open the files "attendance.py" and "automaticAttendance.py" and adjust all path references to match your system configuration.
-Finally, run the "attendance.py" file to initiate the process.
+# Face_Recognition_System
+#Steps you have to follow-
+Download or clone my Repository to your device
+type pip install -r requirements.txt in command prompt(this will install required package for project)
+Create a TrainingImage folder in a project folder.
+open attendance.py and automaticAttendance.py, change all the path accoriding to your system
+Run attandance.py file
 
-# Project Explanation
-Upon initiating the project, the initial step involves registering your face to enable the system to recognize you. Begin by selecting "Register New Student." A small window will appear, prompting you to input your ID and name. Click on the "Take Image" button, triggering a camera window to open and capture up to 50 images of your face (modifiable based on your preference). These images are stored in a folder named "TrainingImage." Providing more images enhances the system's facial recognition capabilities.
-Subsequently, click on the "Train Image" button. This action trains the model, converting all captured images into a numeric format comprehensible to the computer. The training process optimizes the system's ability to identify the registered face efficiently. Depending on your system, the training phase may take some time.
-After completing the model training, select "Automatic Attendance." Enter the subject name, and the system will utilize the trained model to mark attendance based on facial recognition. The system generates a separate .csv file for each subject, organizing the attendance records accordingly.
-To review attendance records, click on the "View Attendance" button and proceed to check the attendance sheet.
+#Explaination of Project
+
+After you run the project first  you have to register your face so that system can identify you and then click on register new student
+After you click a small window will pop up in that you have to enter you ID and name and then click on Take Image button
+After clicking Take Image button A camera window will pop up and it will detect your Face and take upto 50 Images(you can change the number of Image it can take) and stored in the folder named TrainingImage. more you give the image to system, the better it will perform while recognising the face.
+Then you have to click on Train Image button, It will train the model and convert all the Image into numeric format so that computer can understand. we are training the image so that next time when we will show the same face to the computer it will easily identify the face.
+It will take some time(depends on you system).
+After training model click on Automatic Attendance ,you have to enter the subject name and then it can fill attendace by your face using our trained model.
+it will create .csv file for every subject you enter and seperate every .csv file accoriding the subject
+You can view the attendance after clicking View Attendance button and then click on check sheet button.
